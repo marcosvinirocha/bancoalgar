@@ -21,4 +21,14 @@ public class ClienteService {
     public List<Cliente> listarCliente() {
         return clienteRepository.findAll();
     }
+
+    // todo: Mostrar saldo do cliente
+
+    // todo: fazer o deposito do cliente
+
+    // todo: fazer o saque do cliente
+
+    // todo: fazer transferencia de cliente para outro cliente
+
+    // todo: mostrar extrato do cliente
 }
