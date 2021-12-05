@@ -25,15 +25,15 @@ public class ClienteService {
     }
 
     public void depositar(Long id, Double valor) {
-        clienteRepository.salvarSaldo(id, valor);
+        clienteRepository.fazerDeposito(id, valor);
     }
 
     public void sacar(Long id, Double valor) {
-        clienteRepository.fazerDeposito(id, valor);
+        clienteRepository.fazerSaque(id, valor);
     }
 
     public void transferirDinheiro(Long id, Double valor, Long idDestino) {
-        clienteRepository.fazerDeposito(id, valor);
-        clienteRepository.salvarSaldo(idDestino, valor);
+        clienteRepository.fazerSaque(id, valor);
+        clienteRepository.fazerDeposito(idDestino, valor);
     }
 }

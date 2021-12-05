@@ -743,7 +743,7 @@
 </Class>
 <ClassItem id="6b741e1e-55fc-11ec-a14f-a36211ed875f">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 309.0, 104.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 304.0, 99.0)</val>
 </matrix>
 <width>
 <val>116.0</val>
@@ -928,7 +928,7 @@
 <ref refid="78153ddc-55fc-11ec-9bd1-a36211ed875f"/>
 </class_>
 <name>
-<val>mostrarDeposito</val>
+<val>fazerDeposito</val>
 </name>
 </Operation>
 <Operation id="7465ee0f-55fd-11ec-b36a-a36211ed875f">
@@ -1017,7 +1017,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 388.0, 164.0)</val>
 </matrix>
 <points>
-<val>[(37.0, 10.837480211081754), (379.0, 0.5)]</val>
+<val>[(32.0, 5.837480211081754), (379.0, 0.5)]</val>
 </points>
 <head-connection>
 <ref refid="6b741e1e-55fc-11ec-a14f-a36211ed875f"/>
