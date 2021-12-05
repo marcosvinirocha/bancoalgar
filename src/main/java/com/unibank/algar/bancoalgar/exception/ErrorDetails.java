@@ -1,4 +1,4 @@
-package com.unibank.exception;
+package com.unibank.algar.bancoalgar.exception;
 
 import java.util.Date;
 
