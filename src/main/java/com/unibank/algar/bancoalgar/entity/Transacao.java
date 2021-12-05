@@ -25,5 +25,5 @@ public class Transacao {
     private Double valor;
 
     @ManyToOne
-    private Cliente cliente;
+    private Cliente conta;
 }

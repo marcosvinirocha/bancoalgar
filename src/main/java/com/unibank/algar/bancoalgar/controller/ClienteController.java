@@ -22,9 +22,9 @@ public class ClienteController {
     private ClienteService clienteService;
 
     // Todo: criar conta
-    @PostMapping
+    @PostMapping("/abrir-conta")
     @ResponseStatus(value = HttpStatus.CREATED)
-    public Cliente salvar(@RequestBody Cliente cliente) {
+    public Cliente abrirConta(@RequestBody Cliente cliente) {
         return clienteService.criarConta(cliente);
     }
 
