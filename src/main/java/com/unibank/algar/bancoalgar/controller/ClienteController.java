@@ -57,6 +57,7 @@ public class ClienteController {
         Transacao transacao = new Transacao();
         transacao.setTipo("Deposito");
         transacao.setValor(valor);
+        transacao.setConta(cliente);
         transacaoService.salvarTransacao(transacao);
         return ResponseEntity.ok().body("Deposito realizado com sucesso. Saldo anterior: " + initialSaldo
                 + " Saldo atual: " + clienteService.getSaldo(id));
@@ -72,6 +73,7 @@ public class ClienteController {
         Transacao transacao = new Transacao();
         transacao.setTipo("Saque");
         transacao.setValor(valor);
+        transacao.setConta(cliente);
         transacaoService.salvarTransacao(transacao);
         return ResponseEntity.ok().body("Saque realizado com sucesso. Saldo anterior: " + initialSaldo
                 + " Saldo atual: " + clienteService.getSaldo(id));
@@ -87,11 +89,6 @@ public class ClienteController {
 
         if (id != idDestino) {
             clienteService.transferirDinheiro(id, idDestino, valor);
-            Cliente cliente = clienteService.clienteInfo(id);
-            Transacao transacao = new Transacao();
-            transacao.setTipo("Transferencia");
-            transacao.setValor(valor);
-            transacaoService.salvarTransacao(transacao);
             return ResponseEntity.ok().body("Transferencia realizada com sucesso.");
         } else {
             return ResponseEntity.badRequest().body("Não é possivel transferir para a mesma conta");
