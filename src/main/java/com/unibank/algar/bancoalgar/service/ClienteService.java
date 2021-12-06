@@ -32,7 +32,7 @@ public class ClienteService {
         clienteRepository.fazerSaque(id, valor);
     }
 
-    public void transferirDinheiro(Long id, Double valor, Long idDestino) {
+    public void transferirDinheiro(Long id, Long idDestino, Double valor) {
         clienteRepository.fazerSaque(id, valor);
         clienteRepository.fazerDeposito(idDestino, valor);
     }
