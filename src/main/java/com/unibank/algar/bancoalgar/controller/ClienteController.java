@@ -1,5 +1,7 @@
 package com.unibank.algar.bancoalgar.controller;
 
+import java.util.List;
+
 import com.unibank.algar.bancoalgar.entity.Cliente;
 import com.unibank.algar.bancoalgar.entity.Transacao;
 import com.unibank.algar.bancoalgar.service.ClienteService;
@@ -96,4 +98,9 @@ public class ClienteController {
     }
 
     // todo: mostrar extrato do cliente
+    @GetMapping("/{contaId}/extrato")
+    @ResponseStatus(value = HttpStatus.OK)
+    public List<Transacao> mostrarExtrato(@PathVariable("contaId") Long contaId) {
+        return transacaoService.listarTransacoes(contaId);
+    }
 }
