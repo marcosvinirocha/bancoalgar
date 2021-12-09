@@ -29,6 +29,8 @@
 <ref refid="6b73b71a-55fc-11ec-b298-a36211ed875f"/>
 <ref refid="78153ddc-55fc-11ec-9bd1-a36211ed875f"/>
 <ref refid="eb022dc3-55fd-11ec-a933-a36211ed875f"/>
+<ref refid="4338ca97-57ab-11ec-b770-157943479123"/>
+<ref refid="736e4d0f-57ab-11ec-9940-157943479123"/>
 </reflist>
 </ownedType>
 </Package>
@@ -48,6 +50,7 @@
 <ref refid="290bd0cc-55d4-11ec-87d8-a14444f4d72b"/>
 <ref refid="36b94674-55d4-11ec-abfb-a14444f4d72b"/>
 <ref refid="470dd46d-55d4-11ec-afa6-a14444f4d72b"/>
+<ref refid="736ecdd0-57ab-11ec-901a-157943479123"/>
 <ref refid="02f7f11a-55d4-11ec-8374-a14444f4d72b"/>
 <ref refid="57772611-55d4-11ec-8ad0-a14444f4d72b"/>
 <ref refid="5a83f0cb-55d4-11ec-8a21-a14444f4d72b"/>
@@ -68,6 +71,7 @@
 <reflist>
 <ref refid="6b741e1e-55fc-11ec-a14f-a36211ed875f"/>
 <ref refid="78156607-55fc-11ec-8610-a36211ed875f"/>
+<ref refid="4338fdbe-57ab-11ec-882b-157943479123"/>
 <ref refid="ea3dea12-55fd-11ec-8722-a36211ed875f"/>
 </reflist>
 </ownedPresentation>
@@ -87,7 +91,7 @@
 </Actor>
 <ActorItem id="efffe70f-55d3-11ec-a798-a14444f4d72b">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 58.0, -120.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 256.798384437627, -120.0)</val>
 </matrix>
 <width>
 <val>38.0</val>
@@ -117,7 +121,7 @@
 </UseCase>
 <UseCaseItem id="f66109f5-55d3-11ec-833d-a14444f4d72b">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 239.0, -37.83333333333337)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 437.7983844376271, -37.83333333333337)</val>
 </matrix>
 <width>
 <val>103.0</val>
@@ -149,7 +153,7 @@
 <ref refid="03f73cb2-55d4-11ec-b915-a14444f4d72b"/>
 </tail_subject>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 102.0, -9.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 300.7983844376271, -9.0)</val>
 </matrix>
 <points>
 <val>[(-6.0, -81.0), (137.0, -16.279471544715484)]</val>
@@ -220,7 +224,7 @@
 </UseCase>
 <UseCaseItem id="0b3d740b-55d4-11ec-a956-a14444f4d72b">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 609.5, -135.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 808.2983844376271, -135.0)</val>
 </matrix>
 <width>
 <val>103.0</val>
@@ -250,7 +254,7 @@
 </UseCase>
 <UseCaseItem id="1ec9a6df-55d4-11ec-b21a-a14444f4d72b">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 661.0, -37.83333333333337)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 859.7983844376271, -37.83333333333337)</val>
 </matrix>
 <width>
 <val>103.0</val>
@@ -280,7 +284,7 @@
 </UseCase>
 <UseCaseItem id="290bd0cc-55d4-11ec-87d8-a14444f4d72b">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 631.5, 84.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 830.2983844376271, 84.0)</val>
 </matrix>
 <width>
 <val>138.0</val>
@@ -310,7 +314,7 @@
 </UseCase>
 <UseCaseItem id="36b94674-55d4-11ec-abfb-a14444f4d72b">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 564.0, 175.0748502994012)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 762.7983844376271, 175.0748502994012)</val>
 </matrix>
 <width>
 <val>163.0</val>
@@ -340,7 +344,7 @@
 </UseCase>
 <UseCaseItem id="470dd46d-55d4-11ec-afa6-a14444f4d72b">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 565.0, 308.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 763.7983844376271, 308.0)</val>
 </matrix>
 <width>
 <val>199.0</val>
@@ -372,7 +376,7 @@
 <ref refid="586216c1-55d4-11ec-9fe5-a14444f4d72b"/>
 </tail_subject>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 382.0, -50.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 580.7983844376272, -50.0)</val>
 </matrix>
 <points>
 <val>[(-72.0, 12.166666666666629), (250.5, -55.0)]</val>
@@ -445,7 +449,7 @@
 <ref refid="5b394f96-55d4-11ec-9ee4-a14444f4d72b"/>
 </tail_subject>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 352.0, -40.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 550.7983844376271, -40.0)</val>
 </matrix>
 <points>
 <val>[(-10.0, 19.694444444444404), (309.0, 19.194444444444407)]</val>
@@ -518,7 +522,7 @@
 <ref refid="5d823d21-55d4-11ec-8611-a14444f4d72b"/>
 </tail_subject>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 335.0, -41.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 533.7983844376272, -41.0)</val>
 </matrix>
 <points>
 <val>[(-29.0, 33.16666666666663), (296.5, 125.0)]</val>
@@ -591,7 +595,7 @@
 <ref refid="60470a88-55d4-11ec-8a99-a14444f4d72b"/>
 </tail_subject>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 314.0, -51.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 512.7983844376271, -51.0)</val>
 </matrix>
 <points>
 <val>[(-16.269193527090238, 43.16666666666663), (250.0, 226.0748502994012)]</val>
@@ -664,7 +668,7 @@
 <ref refid="62d94caf-55d4-11ec-8bfd-a14444f4d72b"/>
 </tail_subject>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 315.0, -45.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 513.7983844376271, -45.0)</val>
 </matrix>
 <points>
 <val>[(-18.5, 37.16666666666663), (250.0, 353.0)]</val>
@@ -743,7 +747,7 @@
 </Class>
 <ClassItem id="6b741e1e-55fc-11ec-a14f-a36211ed875f">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 334.30303030303037, 91.14365881032548)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 274.30303030303037, 137.14365881032546)</val>
 </matrix>
 <width>
 <val>116.0</val>
@@ -794,7 +798,7 @@
 </Class>
 <ClassItem id="78156607-55fc-11ec-8610-a36211ed875f">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 767.0, 104.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 707.0, 150.0)</val>
 </matrix>
 <width>
 <val>165.0</val>
@@ -1014,7 +1018,7 @@
 <ref refid="eb0267ec-55fd-11ec-8f6c-a36211ed875f"/>
 </tail_subject>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 388.0, 164.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 328.0, 210.0)</val>
 </matrix>
 <points>
 <val>[(62.30303030303037, -2.0188609785927554), (379.0, 0.5)]</val>
@@ -1096,4 +1100,64 @@
 <val>private</val>
 </visibility>
 </Property>
+<Interaction id="4338ca97-57ab-11ec-b770-157943479123">
+<name>
+<val>Diagrama de Classe Algar Bank</val>
+</name>
+<package>
+<ref refid="85ca5d45-55d3-11ec-86d9-a14444f4d72b"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="4338fdbe-57ab-11ec-882b-157943479123"/>
+</reflist>
+</presentation>
+</Interaction>
+<InteractionItem id="4338fdbe-57ab-11ec-882b-157943479123">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 92.99999999999991, 14.0)</val>
+</matrix>
+<width>
+<val>919.0</val>
+</width>
+<height>
+<val>541.0</val>
+</height>
+<diagram>
+<ref refid="dc8094e6-55d3-11ec-b7a0-a14444f4d72b"/>
+</diagram>
+<subject>
+<ref refid="4338ca97-57ab-11ec-b770-157943479123"/>
+</subject>
+</InteractionItem>
+<Interaction id="736e4d0f-57ab-11ec-9940-157943479123">
+<name>
+<val>Diagrama de caso de uso Algar Bank</val>
+</name>
+<package>
+<ref refid="85ca5d45-55d3-11ec-86d9-a14444f4d72b"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="736ecdd0-57ab-11ec-901a-157943479123"/>
+</reflist>
+</presentation>
+</Interaction>
+<InteractionItem id="736ecdd0-57ab-11ec-901a-157943479123">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 156.28515521092672, -258.5949717450295)</val>
+</matrix>
+<width>
+<val>887.8219783569576</val>
+</width>
+<height>
+<val>649.0372402580906</val>
+</height>
+<diagram>
+<ref refid="85ca6090-55d3-11ec-bfa1-a14444f4d72b"/>
+</diagram>
+<subject>
+<ref refid="736e4d0f-57ab-11ec-9940-157943479123"/>
+</subject>
+</InteractionItem>
 </gaphor>
