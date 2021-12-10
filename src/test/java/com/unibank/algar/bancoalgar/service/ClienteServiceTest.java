@@ -54,4 +54,63 @@ public class ClienteServiceTest extends AplicationConfigTest {
         Mockito.verify(clienteRepository, Mockito.times(1)).findById(ArgumentMatchers.any());
 
     }
+
+    @Test
+    @DisplayName("Mostrar Saldo")
+    public void deveMostrarSaldoClientePeloId() {
+        Long idCliente = 1L;
+        Cliente clienteMock = Mockito.mock(Cliente.class);
+
+        Double saldo = clienteMock.getSaldo();
+
+        Mockito.when(clienteRepository.findSaldoById(ArgumentMatchers.eq(idCliente))).thenReturn(saldo);
+
+        clienteService.getSaldo(idCliente);
+
+        Mockito.verify(clienteRepository, Mockito.times(1)).findSaldoById(ArgumentMatchers.any());
+
+    }
+
+    @Test
+    @DisplayName("Fazer deposito")
+    public void deveDepositarDinheiro() {
+        Long idCliente = 1L;
+        Double valor = (double) 100;
+
+        clienteService.depositar(idCliente, valor);
+
+        Mockito.verify(clienteRepository, Mockito.times(1)).fazerDeposito(ArgumentMatchers.any(),
+                ArgumentMatchers.any());
+
+    }
+
+    @Test
+    @DisplayName("Fazer Saque")
+    public void deveSacarDinheiro() {
+        Long idCliente = 1L;
+        Double valor = (double) 100;
+
+        clienteService.sacar(idCliente, valor);
+
+        Mockito.verify(clienteRepository, Mockito.times(1)).fazerSaque(ArgumentMatchers.any(),
+                ArgumentMatchers.any());
+
+    }
+
+    @Test
+    @DisplayName("Fazer Transferencia")
+    public void deveFazerTransferenciaDinheiro() {
+        Long idCliente = 1L;
+        Long idClienteDestino = 2L;
+        Double valor = (double) 100;
+
+        clienteService.transferirDinheiro(idCliente, idClienteDestino, valor);
+
+        Mockito.verify(clienteRepository, Mockito.times(1)).fazerSaque(ArgumentMatchers.any(),
+                ArgumentMatchers.any());
+
+        Mockito.verify(clienteRepository, Mockito.times(1)).fazerDeposito(ArgumentMatchers.any(),
+                ArgumentMatchers.any());
+
+    }
 }
