@@ -32,18 +32,21 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 Para instalar o <nome_do_projeto>, siga estas etapas:
 
 Linux e macOS:
+
 ```
 git clone https://github.com/marcosvinirocha/bancoalgar.git
 ```
 
 Windows:
+
 ```
 git clone https://github.com/marcosvinirocha/bancoalgar.gi
 ```
 
 ## 📫 Contribuindo para Banco Algar
+
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+Para contribuir com Banco Algar, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
