@@ -25,11 +25,10 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 * Possuir a versão mais recente de `Java 11 / maven `
 * Ter uma máquina `<Windows / Linux / Mac>`.
-* 
 
 ## 🚀 Instalando Banco Algar
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
+Para instalar o Banco Algar, siga estas etapas:
 
 Linux e macOS:
 
