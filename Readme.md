@@ -39,7 +39,7 @@ git clone https://github.com/marcosvinirocha/bancoalgar.git
 Windows:
 
 ```
-git clone https://github.com/marcosvinirocha/bancoalgar.gi
+git clone https://github.com/marcosvinirocha/bancoalgar.git
 ```
 
 ## 📫 Contribuindo para Banco Algar
