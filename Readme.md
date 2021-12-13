@@ -58,4 +58,4 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
 
 Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+[⬆ Voltar ao topo](#bancoalgar)<br>
