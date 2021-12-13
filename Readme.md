@@ -3,6 +3,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/marcosvinirocha/bancoalgar?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/marcosvinirocha/bancoalgar?style=for-the-badge)
 
+![Codecov](https://img.shields.io/codecov/c/gh/marcosvinirocha/bancoalgar?style=for-the-badge)
+
 > Essa API foi desenvolvida em Spring Boot, com a finalidade para apresentar as funcionalidades de um banco. Foi implementado todas as principais funções que um banco pode fazer.
 
 ### Rotas da API
