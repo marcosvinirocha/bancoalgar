@@ -1,9 +1,6 @@
 # Projeto Banco Algar
 
-![GitHub repo size](https://img.shields.io/github/repo-size/marcosvinirocha/bancoalgar?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/marcosvinirocha/bancoalgar?style=for-the-badge)
-
-![Codecov](https://img.shields.io/codecov/c/gh/marcosvinirocha/bancoalgar?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/marcosvinirocha/bancoalgar?style=for-the-badge)![GitHub language count](https://img.shields.io/github/languages/count/marcosvinirocha/bancoalgar?style=for-the-badge)![Codecov](https://img.shields.io/codecov/c/gh/marcosvinirocha/bancoalgar?style=for-the-badge)[![Java CI with Maven](https://github.com/marcosvinirocha/bancoalgar/actions/workflows/maven.yml/badge.svg)](https://github.com/marcosvinirocha/bancoalgar/actions/workflows/maven.yml)
 
 > Essa API foi desenvolvida em Spring Boot, com a finalidade para apresentar as funcionalidades de um banco. Foi implementado todas as principais funções que um banco pode fazer.
 
